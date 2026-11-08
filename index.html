@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>بوصلة ملك 🧭</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div class="neb neb-1"></div>
+<div class="neb neb-2"></div>
+
+<div class="page">
+  <header class="header">
+    <span class="eyebrow">بوصلة من مازن</span>
+    <h1 class="title">بوصلة ملك 🧭</h1>
+    <p class="header-sub">لفّي الحلقة (أو لفّي موبايلك)… وشوفي الإبرة بتشاور على مين</p>
+  </header>
+
+  <div class="stage" id="stage">
+    <canvas id="compass" aria-label="بوصلة بتشاور على ملك"></canvas>
+  </div>
+
+  <div class="turns">لفّيتِ الدنيا <b id="turns">0</b> لفّة</div>
+
+  <div class="msg-card" id="msg-card">
+    <p class="msg" id="msg">لفّي الحلقة بإصبعك أو بالماوس…</p>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn" id="btn-spin" type="button">لفّيها لحد ما تتعبي 🌀</button>
+    <button class="btn ghost" id="btn-sensor" type="button">فعّلي بوصلة الموبايل 📱</button>
+  </div>
+  <p class="note" id="note"></p>
+
+  <div class="chips" id="chips"></div>
+  <p class="footer">مازن — أبو ليلي 🌙</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
